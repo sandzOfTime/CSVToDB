@@ -11,4 +11,14 @@ Using this module for your own personal project is easy. All you need is a Postg
 
 * In `sqlConnector.js`, replace `process.env.POSTGRES_CONNECTION` with connection string from your PostgreSQL instance.
 
+* Define table and columns. For e.g 
+
+```
+    const table = sequelize.define('TABLE_NAME', {
+        ColumnOne: Sequelize.STRING,
+        ColumnTwo: Sequelize.INTEGER,
+    });
+ 
+ ```
+ 
 * Run with `node index.js`.
