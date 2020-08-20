@@ -3,6 +3,8 @@ Module that allows you to convert a particular CSV file and store it into a Post
 
 A test file is included (TestDBFile.csv), that would serve as source CSV file.
 
+The test file contains three columns: Name (STRING), isAdult (BOOLEAN) and Age (INT)
+
 Using this module for your own personal project is easy. All you need is a PostgreSQL database instance. Steps:
 
 * Download zip file or clone the repo
